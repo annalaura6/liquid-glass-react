@@ -50,25 +50,19 @@ export default function Home() {
       {/* Left Panel - Glass Effect Demo */}
       <div className="flex-1 relative overflow-auto min-h-screen md:col-span-2" ref={containerRef} onScroll={handleScroll}>
         <div className="w-full min-h-[200vh] absolute top-0 left-0 pb-96 mb-96">
-          <img src="https://picsum.photos/2000/2000" className="w-full h-96 object-cover" />
+          <img src="https://images.unsplash.com/photo-1747767763480-a5b4c7a82aef?q=80&w=2104&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Mountain landscape" className="w-full h-96 object-cover" />
           <div className="flex flex-col gap-2" id="bright-section">
-            <h2 className="text-2xl font-semibold my-5 text-center">Some Heading</h2>
-            <p className="px-10">
-              Bacon ipsum dolor amet hamburger Bacon ipsum dolor amet hamburger <br />
-              Bacon ipsum dolor amet hamburger Bacon ipsum dolor amet hamburger
-              <br />
-              Bacon ipsum dolor amet hamburger Bacon ipsum dolor amet hamburger
-              <br />
-              Bacon ipsum dolor amet hamburger Bacon ipsum dolor amet hamburger
-              <br />
-              Bacon ipsum dolor amet hamburger Bacon ipsum dolor amet hamburger
-              <br />
-              Bacon ipsum dolor amet hamburger Bacon ipsum dolor amet hamburger
+            <h2 className="text-2xl font-semibold my-5 text-center">Beautiful Landscapes</h2>
+            <p className="px-10 text-white/80">
+              Explore the stunning beauty of nature through these breathtaking landscapes. 
+              From majestic mountains to serene lakes, each image showcases the incredible 
+              diversity of our planet's natural wonders. The liquid glass effect creates 
+              a unique visual experience that enhances the beauty of these scenes.
             </p>
           </div>
-          <img src="https://picsum.photos/1200/1200" className="w-full h-80 object-cover my-10" />
-          <img src="https://picsum.photos/1400/1300" className="w-full h-72 object-cover my-10" />
-          <img src="https://picsum.photos/1100/1200" className="w-full h-96 object-cover my-10 mb-96" />
+          <img src="https://cdn.prod.website-files.com/657707d3adbd686af20d80b1/67aa2a7a7356f39ecf56c7a8_Landing%20Page%20Hero%20Image%201.2kpx%20v2.png" alt="Forest scene" className="w-full h-80 object-cover my-10" />
+          <img src="https://images.unsplash.com/photo-1754384078097-151de4e3f06b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Sunset over mountains" className="w-full h-72 object-cover my-10" />
+          <img src="https://images.unsplash.com/photo-1749627995669-4d4dda3a9c1d?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Lake reflection" className="w-full h-96 object-cover my-10 mb-96" />
         </div>
 
         {activeTab === "userInfo" && (
